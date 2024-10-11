@@ -14,3 +14,12 @@
 
 push：添加到远程仓库        
 fetch:从远程仓库拉取到本地仓库
+
+
+*分支
+    git checkout -b [branch]    //新建一个分支，并切换到该分支
+    git merge [branch]          //合并指定分支到当前分支
+    git branch -d [branch]      //删除分支
+
+    git push origin --delete [branch-name]      //删除远程仓库
+    git branch -dr [remote/branch]              //删除远程仓库
